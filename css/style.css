@@ -1,6 +1,9 @@
 * {
   font-family: "Open Sans", sans-serif;
 }
+body {
+  height: 1600px;
+}
 nav {
   display: flex;
   align-items: center;
@@ -27,7 +30,7 @@ nav li a {
   text-decoration: none;
   color: #474747;
 }
-#primaryButton {
+.primaryButton {
   width: 150px;
   height: 64px;
   border: 0;
@@ -227,3 +230,58 @@ main {
   text-align: center;
   margin: 50px 0;
 }
+
+.footerContainer {
+  display: flex;
+  gap: 80px;
+  justify-content: space-evenly;
+  background-color: #fff8f3;
+  margin-top: 110px ;
+}
+.footerColumn {
+  margin-top: 80px;
+}
+.footerTitle{
+  font-size: 35px;
+  font-weight: 700;
+  color: #181818;
+}
+.footerDescription {
+  width: 450px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #474747;
+}
+.icons{
+  display: flex;
+}
+.icons img {
+  width: 24px;
+  height: 24px;
+  padding-right: 20px;
+}
+
+.form input[type="text"], textarea{
+  display: block;
+  margin-bottom: 24px;
+  padding: 18px 30px;
+  color: #757575;
+  background-color: #fff;
+  border: 0;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 400;
+  width: 350px;
+}
+.submitBtn {
+  width: 120px;
+  height: 60px;
+  margin-bottom: 80px;
+  background-color: #fd6e0a;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  border: 0;
+  border-radius: 5px;
+}
+
