@@ -140,6 +140,9 @@ main {
   font-weight: 700;
   color: #474747;
 }
+#sectionTitle {
+  margin-top: 130px;
+}
 #whatIDoDescription {
   width: 900px;
   margin: 0 auto;
@@ -156,7 +159,7 @@ main {
   padding: 30px;
   border-radius: 5px;
   background: #fff;
-  box-shadow: 0px 6px 50px 0px rgba(0, 0 , 0, 0.06);
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
 }
 .skills img {
   margin: 0 auto;
@@ -166,10 +169,61 @@ main {
   font-weight: 700;
   color: #181818;
 }
-
 .skillDescription {
   width: 200px;
   font-size: 16px;
   font-weight: 400;
   color: #757575;
+}
+#resumeTitle {
+  margin-top: 130px;
+}
+.resumeContainer {
+  display: flex;
+  justify-content: space-evenly;
+}
+.resumeColumn {
+  font-size: 30px;
+  font-weight: 700;
+  color: #474747;
+}
+.resumeColumnTitle {
+  font-size: 25px;
+  font-weight: 700;
+  color: #474747;
+}
+.resumeDetailsTitle {
+  font-size: 25px;
+  font-weight: 700;
+  color: #474747;
+}
+.resumeDetailsSubtitle {
+  font-size: 20px;
+  font-weight: 600;
+  color: #757575;
+  margin-top: -20px;
+}
+.resumeDetailsDescription {
+  width: 510px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #757575;
+}
+.line {
+  margin-top: 30px;
+}
+.downCv {
+  text-align: center;
+}
+.resumeBtn {
+  width: 200px;
+  height: 64px;
+  border: 0;
+  border-radius: 5px;
+  background-color: #fd6e0a;
+  font-size: 20px;
+  font-weight: 700;
+  color: #fff;
+  text-align: center;
+  margin: 50px 0;
 }
